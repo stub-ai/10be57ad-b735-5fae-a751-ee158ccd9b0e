@@ -1,8 +1,9 @@
-package com.mealme.sdk.models;
+package com.mealme.sdk;
 
-/**
- * This class represents an order on the MealMe platform.
- */
 public class Order {
-    // Implement fields and methods
+    private String id;
+    private String status;
+    private List<Product> products;
+
+    // Getters and setters
 }
